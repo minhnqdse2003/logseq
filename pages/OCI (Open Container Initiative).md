@@ -1,0 +1,13 @@
+- The Open Container Initiative (OCI) is an open governance structure established in June 2015 by Docker and other leaders in the container industry [2](https://en.wikipedia.org/wiki/Open_Container_Initiative). Its primary purpose is to create open industry standards around container formats and runtimes [1](https://opencontainers.org/)
+- OCI is a Linux Foundation project dedicated to managing specifications related to container `storage, distribution, and execution`.
+- It aims to promote `common`, `minimal`, and `open standards` while protecting interoperability across the container ecosystem
+- The OCI manages three main specifications: `Runtime Specification`, `Image Specification`, and `Distribution Specification`.
+- **Runtime Specification**: `Docker Engine`, `Containerd`.
+- **Image Specification**: Defines the OCI Image Format, which consists of:
+	- Image manifest
+	- Optional image index
+	- Set of filesystem layers
+	- Configuration document
+- **Distribution Specification**: Standardizes how container registries and runtime tools push and pull container images and other content types
+- [[Runc]]
+-

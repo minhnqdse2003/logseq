@@ -1,0 +1,13 @@
+# Why namespace appear
+	- Container build base on the namespaces functionality of Linux Kernel.
+	- Namespace allow docker to create isolated environments for containers, give each container its own view of system resources.
+	- Each container has its own set of namespaces for processes, network, mount points, and other resources.
+- # Types of namespaces used by Docker
+	- **PID Namespace**: Provides process isolation [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775).
+	- **Net Namespace**: Manages network interfaces [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775) which we can run on any port without `conflict` with service running on the Host server.
+	- **IPC Namespace**: Manages access to inter-process communication resources [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775) create an `independent memory` for communicate between inter-process that have the `same namespace` without affact on the other namespace.
+	- **MNT Namespace**: Manages filesystem mount points [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775).
+	- **UTS Namespace (Unix Time-Sharing)**: Provides different host and domain names [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775).
+	- **Cgroups**: is a funtionality of Linux Kernel allow us to limit the resources using by each namespace.
+	- ![Understanding Namespaces In Docker🐳 | by @Harsh | Medium](https://miro.medium.com/v2/resize:fit:461/0*ktslXG-epHCuKj-5.png)
+- ![INSIDE DOCKER | Exploring Namespaces, cgroups, and more! | by  headintheclouds | Dev Genius](https://miro.medium.com/v2/resize:fit:1086/0*Q9RrGw34n1zk9mUh.png)

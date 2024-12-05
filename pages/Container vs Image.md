@@ -1,0 +1,2 @@
+- Image - Container like (`Class - Object Instance`) image is a blueprint which is used to create containers.
+- ![](https://i.sstatic.net/Cx1eo.png)
