@@ -9,5 +9,3 @@
 	- Set of filesystem layers
 	- Configuration document
 - **Distribution Specification**: Standardizes how container registries and runtime tools push and pull container images and other content types
-- [[Runc]]
--

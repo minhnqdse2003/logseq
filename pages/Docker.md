@@ -1,3 +1,12 @@
+- At least three things to be aware of when referring to Docker as a technology:
+	- The runtime - Responsible for starting and stopping containers building all OS construct such as namespace and cgroups [[Runc]].
+	  logseq.order-list-type:: number
+	- [[The daemon (a.k.a engine)]] - Docker daemon (dockerd) sits above containerd and performs higher-level task such as: Docker remote api, managing images, managing volumes, managing networks, etc...Major job of the docker daemon is provide an easy-to-use standard inteface that abstracts the lower levels.
+	  logseq.order-list-type:: number
+	- The orchestrator - Docker can native support for manageing clusters of nodes running Docker. These clusters are calling swarm and the native technology is called Docker Swarm
+	  logseq.order-list-type:: number
+	- ![2024-12-07-195107_371x338_scrot.png](../assets/2024-12-07-195107_371x338_scrot_1733575876302_0.png)
+	  logseq.order-list-type:: number
 - [[Container Concept]]
 - [[Container technique]]
 - [[Container vs Image]]
@@ -10,6 +19,7 @@
 	- [[OCI (Open Container Initiative)]]
 	- [[Namespace]]
 - ## Sample config
+  collapsed:: true
 	- postgres - pgadmin4
 	  collapsed:: true
 		- ```
@@ -87,6 +97,7 @@
 		  CMD ["serve", "-s", "dist"]
 		  ```
 - ## Best practice
+  collapsed:: true
 	- Use official Docker images  as Base Image.
 	  logseq.order-list-type:: number
 	- Use specific image version -> `avoid unpredictable`.

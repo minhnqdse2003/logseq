@@ -7,10 +7,10 @@ collapsed:: true
 		- ![Deep into Container — Deep into Container Runtime | by Quân Huỳnh | Medium](https://miro.medium.com/v2/resize:fit:1200/1*CZD4P0OpVML_vsO7RNRevA.png)
 		- [[Container runtime route]]
 - # How
-  collapsed:: true
 	- Reading an OCI configuration file that defines container process information like namespaces, capabilities, environment variables, etc [3](https://blog.quarkslab.com/digging-into-runtimes-runc.html).
 	- Using this configuration along with a root filesystem directory to spawn a container process [3](https://blog.quarkslab.com/digging-into-runtimes-runc.html).
 	- Providing isolation at different levels through Linux namespaces (PID, Net, IPC, MNT, UTS, User) [1](https://www.docker.com/blog/runc/) [3](https://blog.quarkslab.com/digging-into-runtimes-runc.html)
+	- Docker installation has a single containerd process(docker-containerd) controlling the runc (docker-runc) instances associated with each other running container.
 - # Related
 	- **Low-level**: `runc`, `gVisor`, `Firecracker`
 	- **High-level**: `containerd`, `Dockerd`, `CRI-O`, `Podman`
