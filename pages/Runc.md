@@ -1,7 +1,6 @@
 # What
-collapsed:: true
 	- Runc is a lightweight universal container runtime that implements the Open Container Initiative (OCI) specification for spawning and running containers [1](https://www.docker.com/blog/runc/) [2](https://medium.com/@Mark.io/beginners-guide-to-runc-1b29cf281752).
-	- Runc is a wrapper of library `libcontainer`. User can run a container with `runc` by using a config file with `json` extension but its complex and time-consuming.
+	- Runc is a wrapper of  [[libcontainer]]. User can run a container with `runc` by using a config file with `json` extension but its complex and time-consuming.
 	- Runc is a `low-level` when compare with `high-level` container runtimes like `Dockerd` & `Containerd`
 		- Both of them are build on top of `runc`
 		- ![Deep into Container — Deep into Container Runtime | by Quân Huỳnh | Medium](https://miro.medium.com/v2/resize:fit:1200/1*CZD4P0OpVML_vsO7RNRevA.png)

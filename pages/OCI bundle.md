@@ -1,0 +1,14 @@
+- An OCI bundle is a standardize directory layout and file structure defined by [[OCI (Open Container Initiative)]] for launching container. It contains everything a container runtime needs to set up and run a container.
+- #### Components of an OCI Bundle:
+- **`config.json`**:
+	- This is the main configuration file that describes how the container should be run.
+	- It includes information such as:
+		- Namespaces to create (e.g., PID, network, etc.).
+		- Mount points and filesystem paths.
+		- Resource constraints (e.g., CPU and memory limits).
+		- Process details (e.g., entrypoint, arguments, environment variables).
+- **Root Filesystem (`rootfs`)**:
+	- A directory containing the root filesystem of the container.
+	- This is the environment where the containerized application will run, including the libraries and binaries required by the application.
+- # Why
+	- Because OCI runtime specification and many variants of container engine, which mean they need a standardize rule and organization so that [[Runc]] can run it.
