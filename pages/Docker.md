@@ -34,6 +34,7 @@
 - [[Debug]]
 - [[Docker vs Virtual Machine]]
 - [[Docker vs Kubernetes]]
+- [[Docker Swarm]]
 - ## Low-level
 	- [[OCI (Open Container Initiative)]]
 	- [[Namespace]]
@@ -149,4 +150,3 @@
 	  logseq.order-list-type:: number
 	- Using `docker scan <Image>` for Scanning your images Vulnerabilities.
 	  logseq.order-list-type:: number
--
