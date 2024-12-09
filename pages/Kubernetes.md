@@ -14,13 +14,11 @@
 		- Deman for a proper way of `managing` those hundreds of containers.
 	- What features do orchestration tools offer?
 	  logseq.order-list-type:: number
-	  collapsed:: true
 		- `High Availability` or no downtime
 		- `Scalability` or high performance
 		- `Disaster recovery` - backup and restore.
 	- Kubernetes Basic Architecture 
 	  logseq.order-list-type:: number
-	  collapsed:: true
 		- A kubernetes cluster is made up with at least one `master node` and then connect it to each `worker node`. Each `worker node` has a kubelet (Using for communicate between cluster and exec some task for example running application), each `worker node` has `docker containers` of different application deploy on top of it, depending on how `workload` is `distributed` we will have `different` numbers of docker containers running on `worker node`.
 		- `Master node` will run several kubenetes process that are absolutely neccessary to run and manage cluster properly includes:
 			- `API Server` to handle request from -> `UI` for kubernetes dashboard for interact, `API` for using script, `CLI`. Serve as an `entrypoint` to `K8S cluster`.
@@ -41,7 +39,6 @@
 		- **NOTE**: If the `master node` fails, control of the cluster is lost.
 	- Kubernetes Basic Concepts
 	  logseq.order-list-type:: number
-	  collapsed:: true
 		- Pod/Container
 		  logseq.order-list-type:: number
 			- Pod is the smallest unit that user will interact with.

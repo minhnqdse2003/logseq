@@ -1,4 +1,4 @@
-- At least three things to be aware of when referring to Docker as a technology:
+# At least three things to be aware of when referring to Docker as a technology:
 	- The runtime - Responsible for starting and stopping containers building all OS construct such as namespace and cgroups [[Runc]].
 	  logseq.order-list-type:: number
 	- [[The daemon (a.k.a engine)]] - Docker daemon (dockerd) sits above containerd and performs higher-level task such as: Docker remote api, managing images, managing volumes, managing networks, etc...Major job of the docker daemon is provide an easy-to-use standard inteface that abstracts the lower levels.
@@ -7,6 +7,25 @@
 	  logseq.order-list-type:: number
 	- ![2024-12-07-195107_371x338_scrot.png](../assets/2024-12-07-195107_371x338_scrot_1733575876302_0.png)
 	  logseq.order-list-type:: number
+- # Images
+  collapsed:: true
+	- ## The basic
+		- A docker image is a unit of packaging that contains everything required for an application to run includes: [[Container vs Image]]
+			- Application code
+			  logseq.order-list-type:: number
+			- Application depedencies
+			  logseq.order-list-type:: number
+			- OS constructs
+			  logseq.order-list-type:: number
+	- ## The deep dive
+		- We can think of images are stopped containers - container that's not running (or classes). So image like a *`build-time`* construct and container like a *`run-time`* constructs.
+		- ![2024-12-09-130204_716x201_scrot.png](../assets/2024-12-09-130204_716x201_scrot_1733724137291_0.png)
+		- Remember that all images does not a kernel - all containers running on a Docker host share access to the host's kernel.
+- # Container
+	- Container is a runtime instance of an image.
+	- ![2024-12-09-143627_1138x478_scrot.png](../assets/2024-12-09-143627_1138x478_scrot_1733729794566_0.png)
+- # Development process
+	- ![2024-12-09-152806_998x493_scrot.png](../assets/2024-12-09-152806_998x493_scrot_1733732918841_0.png)
 - [[Container Concept]]
 - [[Container technique]]
 - [[Container vs Image]]
@@ -18,6 +37,12 @@
 - ## Low-level
 	- [[OCI (Open Container Initiative)]]
 	- [[Namespace]]
+	- [[Runc]]
+	- [[libcontainer]]
+	- {{embed ((6755e52b-fd4f-48f3-b8c0-014cc6731d25))}}
+	- [[The daemon (a.k.a engine)]]
+	- [[OCI layer]]
+	-
 - ## Sample config
   collapsed:: true
 	- postgres - pgadmin4

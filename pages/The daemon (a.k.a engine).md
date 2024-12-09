@@ -1,7 +1,7 @@
 # How docker engine work (High-level view)
 	- Docker CLI send commands to Docker deamon (Dockerd) -> Docker daemon parses these commands and delegates lower-level container lifecycle task to containerd -> Containerd, in turn, uses runc to execute the container with proper isolation and configuration on the host OS.
 	  logseq.order-list-type:: number
-	- ![2024-12-08-002627_697x267_scrot.png](../assets/2024-12-08-002627_697x267_scrot_1733592395193_0.png)
+	- ![2024-12-08-002627_697x267_scrot.png](../assets/2024-12-08-002627_697x267_scrot_1733592395193_0.png){:height 275, :width 697}
 	  logseq.order-list-type:: number
 - # How docker engine work (Low-level view)
 	- When docker first released, the Docker engine had two major components:
@@ -26,7 +26,7 @@
 		- It wasn't what the ecosystem wanted.
 		  logseq.order-list-type:: number
 	- So that, Docker. Inc has breaking and re-factoring the Docker Engine `All` of the `container execution` and `container runtime code` entirely removed from the deamon and  refactored into small, specialized tool.
-	- ![2024-12-08-233326_741x425_scrot.png](../assets/2024-12-08-233326_741x425_scrot_1733675619448_0.png)
+	- ![2024-12-08-233326_741x425_scrot.png](../assets/2024-12-08-233326_741x425_scrot_1733675619448_0.png){:height 433, :width 741}
 - # The influence of the Open container initiative (OCI)
 	- While Docker, Inc. was breaking deamon apart and refactoring code. OCI was in the process of defining two container-related specifications (a.k.a standards):
 		- Image spec
@@ -45,10 +45,11 @@
 	- When you put it on the Docker CLI, it will make an API call with payload and POSTs them to the API Endpoint exposed by the Docker daemon.
 	- Once docker daemon receive the command to create container, it make a call to `containerd`. Remember that the daemon no-longer contains any code to create container.
 		- The `deamon` communicate with `containerd` via a CRUD-style API over gRPC.
-		- Despite its name, remember that `containerd` cannot actually create containers. It use `runc` to do that. It converts the required Docker image into an [[OCI bundle]] and tell runc to use this to create  a new container.
+		- Despite its name, remember `containerd` cannot actually create containers. It use `runc` to do that. It converts the required Docker image into an [[OCI bundle]] and tell runc to use this to create  a new container.
 	- and then [[Runc]] come into place.
 	- ![2024-12-09-012508_735x468_scrot.png](../assets/2024-12-09-012508_735x468_scrot_1733682320473_0.png)
 - # About the shim
+  id:: 6755e52b-fd4f-48f3-b8c0-014cc6731d25
 	- The shim is integral to the implementation of deamonless containers. [[Why deamonless required]]
 	  logseq.order-list-type:: number
 	- We know that *`containerd`* use *`runc`* to create new containers. In fact, it forks a new instance of runc for every container it creates. However, runc instance will process exits
@@ -73,3 +74,10 @@
 	  logseq.order-list-type:: number
 	- API Server
 	  logseq.order-list-type:: number
+- # Securing client and daemon communication
+	- Docker implements a client-server model.
+		- Client component implement the CLI
+		- The server (daemon) component implements the functionality, including the public-facing REST API.
+	- Client call **`docker`** and the daemon called **`dockerd`** put them in the same host and configures them to communicate over a local.
+	- Its also possible to configure them to communicate over the network. By default, network communication occur over an unsecured HTTP socket on port 2375/tcp.
+	- ![2024-12-09-122859_659x424_scrot.png](../assets/2024-12-09-122859_659x424_scrot_1733722149215_0.png){:height 432, :width 659}

@@ -9,5 +9,8 @@
 	- **MNT Namespace**: Manages filesystem mount points [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775).
 	- **UTS Namespace (Unix Time-Sharing)**: Provides different host and domain names [1](https://harsh05.medium.com/understanding-namespaces-in-docker-0bbcf7697775).
 	- **Cgroups**: is a funtionality of Linux Kernel allow us to limit the resources using by each namespace.
+	- **The diff**
+		- **Namespaces** provide isolation (e.g., process IDs, network stacks, file systems).
+		- **Cgroups** control resource allocation and consumption but do not inherently isolate processes.
 	- ![Understanding Namespaces In Docker🐳 | by @Harsh | Medium](https://miro.medium.com/v2/resize:fit:461/0*ktslXG-epHCuKj-5.png)
 - ![INSIDE DOCKER | Exploring Namespaces, cgroups, and more! | by  headintheclouds | Dev Genius](https://miro.medium.com/v2/resize:fit:1086/0*Q9RrGw34n1zk9mUh.png)
