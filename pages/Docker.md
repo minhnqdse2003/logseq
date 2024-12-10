@@ -36,6 +36,7 @@
 - [[Docker vs Kubernetes]]
 - [[Docker Swarm]]
 - ## Low-level
+  collapsed:: true
 	- [[OCI (Open Container Initiative)]]
 	- [[Namespace]]
 	- [[Runc]]
@@ -132,6 +133,7 @@
 	  logseq.order-list-type:: number
 	- Optimize caching iamge layers
 	  logseq.order-list-type:: number
+	  collapsed:: true
 		- Docker images are built based on a Dockerfile.
 		  logseq.order-list-type:: number
 		- Each dockerfile command creates an image layer.
@@ -144,6 +146,7 @@
 	  logseq.order-list-type:: number
 	- Apply mutil-stage to minimize the image size.
 	  logseq.order-list-type:: number
+	  collapsed:: true
 		- In scenarios where we can run the web application without needing build dependencies (e.g., `React`), you only need a tool to build your application into `HTML` and `JavaScript`. Once built, the application can run without any build tools. In such cases, we can split the Dockerfile into two stages: the `build` stage and the `production` stage. The `build` stage acts as a temporary image used only for building the application, while the `production` stage only includes the final built files and runtime dependencies. This approach minimizes the final image size by removing the intermediate build image, resulting in a smaller and more efficient production image.
 		  logseq.order-list-type:: number
 	- Use the Least Privileged User

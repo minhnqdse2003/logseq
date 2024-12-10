@@ -422,7 +422,7 @@
  :graph/settings {:journal? false
  :builtin-pages? false
  :orphan-pages? true
- :excluded-pages? false}
+ :excluded-pages? true}
  :publishing/all-pages-public? true
  :graph/forcesettings {:charge-strength -500
  :charge-range 700

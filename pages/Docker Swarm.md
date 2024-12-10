@@ -53,7 +53,16 @@
 					  ```
 				- logseq.order-list-type:: number
 		- ## **Swarm manager high availability (HA)**
-		-
+			- Swarm managers have native support for high availability (HA). This mean one or more can fail and the survivors, will keep the swarm running. (Active-Passive multi-manager HA).
+				- We can have multiple of swarm managers but only one of them is active at given moment. This active called `leader`, and the leader is the only one that will take the request from the client. If `manager in passive` mode take request from client, it proxies them across to the `leader`.
+			- ![2024-12-10-144655_1149x452_scrot.png](../assets/2024-12-10-144655_1149x452_scrot_1733816829514_0.png)
+			- From that image we can see that a `manager` can be a `leader` or `followers (passive manager)`.
+			- **`Best practice`**:
+				- Deploy an odd number of manager.
+				  logseq.order-list-type:: number
+				- Don't deploy too many managers (3 or 5 is recommended)
+				  logseq.order-list-type:: number
+			- Having number of managers reduces the chance of [[Split-Brain]] conditions.
 	- Deploy some swarm services
 	- Troubleshooting
 -
