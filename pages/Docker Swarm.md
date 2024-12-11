@@ -62,7 +62,7 @@
 				  logseq.order-list-type:: number
 				- Don't deploy too many managers (3 or 5 is recommended)
 				  logseq.order-list-type:: number
-			- Having number of managers reduces the chance of [[Split-Brain]] conditions.
+			- Having odd number of managers reduces the chance of [[Split-Brain (Network partitions)]] conditions.
 	- Deploy some swarm services
 	- Troubleshooting
 -
