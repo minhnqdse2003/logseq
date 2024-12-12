@@ -6,82 +6,107 @@ This repository contains my notes on various programming concepts, focusing on T
 
 **I. Programming - TypeScript**
 
-- [TypeScript Basics](#typescript-basics)
-  - [tsconfig.json](#tsconfigjson)
-  - [Types](#types)
-    - [Primitive Types](#primitive-types)
-    - [Non-Primitive Types](#non-primitive-types)
-    - [Type Assertions](#type-assertions)
-  - [Interfaces](#interfaces)
-- [Advanced TypeScript](#advanced-typescript)
-  - [Type Inference](#type-inference)
-  - [Type Compatibility](#type-compatibility)
-  - [Combining Types](#combining-types)
-    - [Type Unions](#type-unions)
-    - [Type Intersections](#type-intersections)
-    - [Type Aliases](#type-aliases)
-    - [keyof Operator](#keyof-operator)
-  - [Type Guards/Narrowing](#type-guardsnarrowing)
-    - [instanceof Operator](#instanceof-operator)
-    - [typeof Operator](#typeof-operator)
-    - [Equality](#equality)
-    - [Truthiness](#truthiness)
-    - [Type Predicates](#type-predicates)
-  - [Typing Functions](#typing-functions)
-    - [Function Overloading](#function-overloading)
-  - [Classes](#classes)
-    - [Constructor Parameters](#constructor-parameters)
-    - [Access Modifiers](#access-modifiers)
-    - [Abstract Classes](#abstract-classes)
-    - [Inheritance vs. Polymorphism](#inheritance-vs-polymorphism)
-    - [Method Overriding](#method-overriding)
-    - [Constructor Overloading](#constructor-overloading)
-  - [Generics](#generics)
+- **TypeScript Basics**
+  - tsconfig.json
+  - Types
+    - Primitive Types
+    - Non-Primitive Types
+    - Type Assertions
+  - Interfaces
+- **Advanced TypeScript**
+  - Type Inference
+  - Type Compatibility
+  - Combining Types
+    - Type Unions
+    - Type Intersections
+    - Type Aliases
+    - keyof Operator
+  - Type Guards/Narrowing
+    - instanceof operator
+    - typeof Operator
+    - Equality
+    - Truthiness
+    - Type Predicates
+  - Typing Functions
+    - Typing Functions
+    - Function Overloading
+  - Classes
+    - Constructor Params
+    - Access Modifiers
+    - Abstract Classes
+    - Inheritance vs Polymorphism
+    - Method and Overriding
+    - Constructor Overloading
+  - Generics
 
 **II. Programming - Java**
 
-- [Java Core Concepts](#java-core-concepts)
-  - [Data Structures](#data-structures-java)
-    - [Linear Data Structures](#linear-data-structures-java)
-    - [Non-Linear Data Structures](#non-linear-data-structures-java)
-  - [OOP Concepts](#oop-concepts-java)
-    - [Objects and Classes](#objects-and-classes-java)
-    - [Inheritance](#inheritance-java)
-    - [Method Overloading](#method-overloading-java)
-    - [Method Overriding](#method-overriding-java)
+- **Java Core Concepts**
+  - Data Structures
+    - Linear data structure & Non-linear data structure
+  - OOP Concepts
+    - Object and Class
+    - Inheritance
+    - Method Overloading
+    - Method Overriding
 
 **III. System Administration - Docker**
 
-- [Docker Fundamentals](#docker-fundamentals)
-  - [Container Concepts](#container-concepts)
-  - [Container Techniques](#container-techniques)
-  - [Containers vs. Images](#containers-vs-images)
-  - [Container Port vs. Host Port](#container-port-vs-host-port)
-  - [Docker CLI](#docker-cli)
-  - [Debugging Containers](#debugging-containers)
-  - [Docker vs. Virtual Machines](#docker-vs-virtual-machines)
-  - [Docker vs. Kubernetes](#docker-vs-kubernetes)
-- [Advanced Docker](#advanced-docker)
-  - [Low-Level Docker Concepts](#low-level-docker-concepts)
-    - [OCI (Open Container Initiative)](#oci-open-container-initiative)
-    - [Namespaces](#namespaces)
-  - [Sample Docker Configurations](#sample-docker-configurations)
-  - [Docker Best Practices](#docker-best-practices)
-  - [Docker Daemon (Engine)](#docker-daemon-engine)
-    - [Why Daemonless is Required](#why-daemonless-is-required)
-    - [Container Runtime Route](#container-runtime-route)
-    - [Runc](#runc)
-    - [libcontainer](#libcontainer)
-    - [OCI Bundle](#oci-bundle)
-    - [OCI Layer](#oci-layer)
-
-**IV. System Administration - Kubernetes**
-
-- [Kubernetes Basics](#kubernetes-basics)
-  - [What is Kubernetes?](#what-is-kubernetes)
-  - [Kubernetes Architecture](#kubernetes-architecture)
-  - [Kubernetes Concepts](#kubernetes-concepts)
-  - [Docker vs. Kubernetes](#docker-vs-kubernetes-k8s)
-  - [Kubernetes vs. Docker Swarm](#kubernetes-vs-docker-swarm)
-
-**(Include the content from each file under the respective headings. For example, the content from `Assertions.md` goes under "Type Assertions", the content from `CLI.md` goes under "Docker CLI", and so on.)**
+- **Docker Fundamentals**
+  - Container Concept
+  - Container technique
+  - Containers vs. Images
+  - CONTAINER port vs HOST port
+  - Docker CLI
+  - Debugging Containers
+  - Docker vs. Virtual Machines
+  - Docker vs. Kubernetes
+- **Advanced Docker**
+  - Low-Level Docker Concepts
+    - OCI (Open Container Initiative)
+    - Namespaces
+    - Runc
+    - libcontainer
+    - OCI Bundle
+    - OCI layer
+  - Docker Daemon (Engine)
+    - Why Daemonless is Required
+    - Container Runtime Route
+  - Images
+    - The basic
+    - The deep dive
+  - Container
+  - Development process
+  - Sample Docker Configurations
+    - postgres - pgadmin4
+    - Vite - ReactTs
+  - Docker Best Practices
+  - Docker Swarm
+    - Docker swarm is all about two things
+    - Docker Swarm the deep dive
+      - Build a secure swarm cluster
+        - Swarm primer
+        - Step-by-step
+      - Swarm services
+        - Rolling updates
+          - Scaling service
+        - Routing Mesh and Ingress Network
+    - The commands
+      - Docker Swarm Commands Cheat Sheet
+    - Scenario of replicas and node
+    - Consensus Algorithms
+      - Problem
+      - Effective Consensus Algorithms
+      - Features of Consensus Algorithms
+      - Terms
+      - How raft consensus perform
+        - Prerequisite
+        - Log Replication
+        - Edge case
+          - Split-Brain (Network partitions)
+- **Kubernetes Basics**
+  - What is Kubernetes?
+  - Kubernetes Architecture
+  - Kubernetes Concepts
+  - Docker vs. Kubernetes
+  - Kubernetes vs. Docker Swarm
