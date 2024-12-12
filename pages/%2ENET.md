@@ -1,0 +1,5 @@
+- .NET is a `PLATFORM` that includes `frameworks` (like .NET Framework, .NET MAUI, and ASP.NET), the term `.NET` itself refers to the broader ecosystem encompassing the runtime (#[[CLR or CoreCLR]]), The base class libraries (#BCL ), the compilers, and various supporting tools. Frameworks Like ASP.NET build upon this platform. Which mean .NET provides the environment for running code and compile for it, while `Framework` is a `specific set of libraries` and tools designed for a particular type of application development build `on top` of .NET platform.
+- .NET Platform enables a large number of programming languages (C#, VB .NET, and F# ).
+- And then Microsoft has introduced .NET CORE as an Cross-Platform framework that can work independently on Windows, Linux, MacOS
+- #[[Building Block .NET Platform]]
+-

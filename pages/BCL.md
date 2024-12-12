@@ -1,0 +1,1 @@
+- **Base Class Library (BCL):** This provides a core set of classes and functionalities common to many applications, such as working with strings, files, networking, and so on.

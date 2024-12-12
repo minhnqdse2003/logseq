@@ -420,9 +420,9 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false
- :builtin-pages? false
+ :builtin-pages? true
  :orphan-pages? true
- :excluded-pages? false}
+ :excluded-pages? true}
  :publishing/all-pages-public? true
  :graph/forcesettings {:charge-strength -500
  :charge-range 700

@@ -156,8 +156,7 @@ collapsed:: true
 					-
 	- Troubleshooting
 	-
-- # The commands
-- ## Docker Swarm Commands Cheat Sheet
+- # Docker Swarm Commands Cheat Sheet
   collapsed:: true
 	- **Swarm Management:**
 	  collapsed:: true
@@ -175,3 +174,4 @@ collapsed:: true
 		- **docker service logs <service_name>:** View the logs of a service. Options like -f (follow) and filters are available.
 		- **docker service rm <service_name>:** **Caution:** Deletes a service and all its replicas *without* confirmation.
 - [[Scenario of replicas and node]]
+-
