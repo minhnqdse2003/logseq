@@ -1,0 +1,3 @@
+- A **daemonless container** is a container that can operate without requiring a long-running central daemon.
+	- **With a Daemon**: Docker’s architecture includes a daemon (`dockerd`) that handles all container-related tasks. It intermediates between the user, the container runtime (like `runc`), and the operating system.
+	- **Daemonless**: In a daemonless architecture (e.g., `containerd` or Podman), containers are created, run, and managed directly using the runtime (like `runc`) without a centralized process acting as an intermediary.

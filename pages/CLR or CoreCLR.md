@@ -1,0 +1,1 @@
+- **Common Language Runtime (CLR or CoreCLR):** This is the ***execution engine*** where .NET programs run. It handles memory management, garbage collection, security, and other low-level tasks.

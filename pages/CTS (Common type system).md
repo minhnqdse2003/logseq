@@ -1,0 +1,4 @@
+- It defines how data type are declared, used, and managed in #[[CLR or CoreCLR]]
+- ## Why
+	- Smooth communication between different language. Because with CTS data type define in two different language can compiled to a common data type.
+- #[[Different between CTS & CLS]]

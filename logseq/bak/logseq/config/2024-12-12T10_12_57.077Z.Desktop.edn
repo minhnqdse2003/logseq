@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -419,5 +419,11 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :graph/settings {:journal? true
- :builtin-pages? true}}
+ :graph/settings {:journal? false
+ :builtin-pages? false
+ :orphan-pages? true
+ :excluded-pages? true}
+ :publishing/all-pages-public? true
+ :graph/forcesettings {:charge-strength -500
+ :charge-range 700
+ :link-dist 110}}
