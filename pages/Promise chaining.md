@@ -1,4 +1,4 @@
 - #[[Promise all]]
 - #[[Promise all settled]]
 - #[[Promise race]]
-- |Promise all|Promise
+- |Promise all|Promise all settled|Promise
