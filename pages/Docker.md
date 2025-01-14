@@ -36,7 +36,6 @@
 - [[Docker vs Kubernetes]]
 - [[Docker Swarm]]
 - ## Low-level
-  collapsed:: true
 	- [[OCI (Open Container Initiative)]]
 	- [[Namespace]]
 	- [[Runc]]
