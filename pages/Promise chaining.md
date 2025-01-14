@@ -1,4 +1,5 @@
 - #[[Promise all]]
 - #[[Promise all settled]]
 - #[[Promise race]]
-- |Promise all|Promise all settled|Promise
+- |Promise all|Promise all settled|Promise race|
+  |Reject immediately
