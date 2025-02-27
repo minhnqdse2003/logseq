@@ -27,3 +27,6 @@
 	-
 - Content Optimization
   logseq.order-list-type:: number
+	- + Key words:
+		- - Long tail: "
+		- - Short tail: "SEO", "shoes"
