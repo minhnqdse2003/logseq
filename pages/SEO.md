@@ -21,4 +21,9 @@
 	  ```
 - URL Structure and Routing
   logseq.order-list-type:: number
-- logseq.order-list-type:: number
+  collapsed:: true
+	- ![image.png](../assets/image_1740687112035_0.png)
+	- ![image.png](../assets/image_1740687123948_0.png)
+	-
+- Content Optimization
+  logseq.order-list-type:: number
