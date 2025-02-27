@@ -27,6 +27,7 @@
 	-
 - Content Optimization
   logseq.order-list-type:: number
+  collapsed:: true
 	- + Key words:
 		- - Long tail: "best running shoes for flat feet".
 		  collapsed:: true
@@ -77,3 +78,7 @@
 			  **Cons:**
 			- High competition due to their strong commercial intent.
 		-
+- Page speed and Web Vitals
+  logseq.order-list-type:: number
+- Image optimization
+  logseq.order-list-type:: number
