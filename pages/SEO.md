@@ -63,3 +63,9 @@
 			  **Cons:**
 			- Higher competition, especially for generic terms.
 		- - Geo-Targeted Keywords: "SEO service in New York", "best restaurants in Tokyo"
+			- **Pros:**
+			- Highly relevant for local searches, attracting nearby customers.
+			- Less competition compared to national or global keywords.
+			  
+			  **Cons:**
+			- Limited reach to a specific geographic area.
