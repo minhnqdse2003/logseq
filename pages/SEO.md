@@ -69,3 +69,11 @@
 			  
 			  **Cons:**
 			- Limited reach to a specific geographic area.
+		- - Transaction Keywords: "buy iPhone 14", "best deals on running shoes."
+			- **Pros:**
+			- High conversion rate since these users are ready to take action.
+			- Clear user intent, making it easier to cater to their needs.
+			  
+			  **Cons:**
+			- High competition due to their strong commercial intent.
+		-
