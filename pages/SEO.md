@@ -48,6 +48,7 @@
 			- High competition, making it difficult to rank.
 			- Low user intent, often resulting in lower conversion rates.
 		- - Branded Keywords: "Apple MacBook",  "Nike running shoes".
+		  collapsed:: true
 			- **Pros:**
 			- High conversion potential since users already know the brand.
 			- Lower competition for small brands.
