@@ -62,4 +62,4 @@
 			  
 			  **Cons:**
 			- Higher competition, especially for generic terms.
-		- - Geo-Targeted Keywords: "SEO service in New York", "best re
+		- - Geo-Targeted Keywords: "SEO service in New York", "best restaurants in Tokyo"
