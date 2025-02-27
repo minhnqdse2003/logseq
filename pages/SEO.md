@@ -47,4 +47,5 @@
 			  **Cons:**
 			- High competition, making it difficult to rank.
 			- Low user intent, often resulting in lower conversion rates.
+		- - Branded Keywords: "Apple MacBook",  "Nike running shoes".
 		-
