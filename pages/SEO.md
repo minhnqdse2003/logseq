@@ -55,4 +55,4 @@
 			  
 			  **Cons:**
 			- Limited reach since they only attract users who are already familiar with the brand.
-		-
+		- - Non-Branded Keyword: "laptop", "running shoes"
