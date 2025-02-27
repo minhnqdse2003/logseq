@@ -29,4 +29,22 @@
   logseq.order-list-type:: number
 	- + Key words:
 		- - Long tail: "best running shoes for flat feet".
+		  collapsed:: true
+			- **Pros:**
+			- Lower competition due to their specificity.
+			- Higher conversion rates since they target users with clear intent.
+			  
+			  **Cons:**
+			- Lower search volume, which means fewer visitors.
+			  
+			  Long-tail keywords are critical for targeting users who are ready to make a decision or perform an action, making them essential for driving conversions.
 		- - Short tail: "SEO", "shoes".
+		  collapsed:: true
+			- **Pros:**
+			- Large search volume, attracting lots of traffic.
+			- Ideal for brand awareness and broad topic coverage.
+			  
+			  **Cons:**
+			- High competition, making it difficult to rank.
+			- Low user intent, often resulting in lower conversion rates.
+		-
