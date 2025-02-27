@@ -28,5 +28,5 @@
 - Content Optimization
   logseq.order-list-type:: number
 	- + Key words:
-		- - Long tail: "
-		- - Short tail: "SEO", "shoes"
+		- - Long tail: "best running shoes for flat feet".
+		- - Short tail: "SEO", "shoes".
