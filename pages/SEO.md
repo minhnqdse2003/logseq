@@ -56,3 +56,10 @@
 			  **Cons:**
 			- Limited reach since they only attract users who are already familiar with the brand.
 		- - Non-Branded Keyword: "laptop", "running shoes"
+			- **Pros:**
+			- Broader reach to attract new audiences.
+			- Essential for building brand recognition and increasing website traffic.
+			  
+			  **Cons:**
+			- Higher competition, especially for generic terms.
+		- - Geo-Targeted Keywords:
