@@ -1,3 +1,3 @@
 - [[Update complex state]]
-- Immutable state and merging
+- [[Immutable state and merging]]
 -
