@@ -33,3 +33,4 @@
 	    ramdaInc: () =>
 	      set(R.modifyPath(["deep", "nested", "obj", "count"], (c) => c + 1)),
 	  ```
+	- Less type strict
