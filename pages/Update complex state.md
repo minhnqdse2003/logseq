@@ -27,9 +27,7 @@
 	      set(O.modify(O.optic<State>().path("deep.nested.obj.count"))((c) => c + 1)),
 	  ```
 	- Best for **strongly-typed, complex nested state management**.
-	-
 - ramda
-  collapsed:: true
 	- ```
 	    ramdaInc: () =>
 	      set(R.modifyPath(["deep", "nested", "obj", "count"], (c) => c + 1)),
