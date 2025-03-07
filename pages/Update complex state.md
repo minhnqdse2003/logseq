@@ -26,7 +26,6 @@
 	    opticsInc: () =>
 	      set(O.modify(O.optic<State>().path("deep.nested.obj.count"))((c) => c + 1)),
 	  ```
-	- ###
 	- Best for **strongly-typed, complex nested state management**.
 	-
 - ramda
