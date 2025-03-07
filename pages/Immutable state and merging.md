@@ -2,4 +2,8 @@
 	- ```
 	  // No need
 	  set((state) => ({ ...state, count: state.count + 1 }))
+	  
+	  //Instead
+	  set((state) => ({ count: state.count + 1 }))
 	  ```
+- **Notices**:
