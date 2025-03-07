@@ -1,5 +1,6 @@
-- Update complex state:
-	- Normal way
+- Update complex state
+  collapsed:: true
+	- normal way
 		- ```
 		    normalInc: () =>
 		      set((state) => ({
