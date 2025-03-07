@@ -20,7 +20,8 @@
 	    immerInc: () =>
 	      set(produce((state: State) => { ++state.deep.nested.obj.count })),
 	  ```
-	- Normal use for redux and zustand management for
+	- Normal use for redux and zustand management for more complex object use **optics-ts** instead
+	-
 - optics-ts
 	- ```
 	    opticsInc: () =>
