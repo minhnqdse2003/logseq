@@ -16,11 +16,11 @@
 	      })),
 	  ```
 - Immer
-  collapsed:: true
 	- ```
 	    immerInc: () =>
 	      set(produce((state: State) => { ++state.deep.nested.obj.count })),
 	  ```
+	-
 - optics-ts
 	- ```
 	    opticsInc: () =>
