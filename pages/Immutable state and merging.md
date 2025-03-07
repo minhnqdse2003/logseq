@@ -26,5 +26,6 @@
 	  ```
 - How to disable
 	- ```
+	  // add second prop as boolean to false
 	  set((state) => newState, true)
 	  ```
