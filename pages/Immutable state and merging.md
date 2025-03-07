@@ -8,4 +8,6 @@
 	  //So spread operator to clone a new state is not neccessary
 	  set((state) => ({ count: state.count + 1 }))
 	  ```
-- **Notices**: set api also support for deep level 1 which mean it's only supported ["state","count"] but not supported ["state","]
+- **Notices**: set api also support for deep level 1 which mean it's only supported ["state","count"] but not supported ["state","nested","count"]
+	- ```
+	  ```
