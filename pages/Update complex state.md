@@ -22,11 +22,13 @@
 	      set(produce((state: State) => { ++state.deep.nested.obj.count })),
 	  ```
 - optics-ts
-  collapsed:: true
 	- ```
 	    opticsInc: () =>
 	      set(O.modify(O.optic<State>().path("deep.nested.obj.count"))((c) => c + 1)),
 	  ```
+	- ###
+	- Best for **strongly-typed, complex nested state management**.
+	-
 - ramda
   collapsed:: true
 	- ```
