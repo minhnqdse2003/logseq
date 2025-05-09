@@ -21,5 +21,10 @@
   ```
 - Create a new file .**commitlint.config.js** and the below content to it
 - ```
-  @commitlint/config-workspace-scopes
+  module.exports = {
+    extends: [
+      '@commitlint/config-conventional',
+      '@commitlint/config-workspace-scopes',
+    ],
+  }
   ```
