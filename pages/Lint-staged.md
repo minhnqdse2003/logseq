@@ -19,11 +19,7 @@
 - ```
   npx --no-install commitlint --edit
   ```
-- Create a new file .**commitlintrc.json** and the below content to it
+- Create a new file .**commitlint.config.js** and the below content to it
 - ```
-  {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  }
+  export default { extends: ['@commitlint/config-conventional'] }
   ```
